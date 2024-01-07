@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Smartphones</h1>
+    <label>Marcas destacadas:
+        <input list="marcas" type="text" name="marcas">
+    </label>
+    
+    <datalist id="marcas">
+        <option value="Móviles Apple"></option>
+        <option value="Móviles Samsung"></option>
+        <option value="Móviles Xiaomi"></option>
+        <option value="Móviles Oppo"></option>
+    </datalist>
+    <label>Categorias destacadas:
+        <input list="categorias" type="text" name="categorias">
+    </label>
+    
+    <datalist id="categorias">
+        <option value="Móviles 5G"></option>
+        <option value="Móviles Android"></option>
+        <option value="Móviles gama alta"></option>
+        <option value="Móviles gama media"></option>
+    </datalist>
+    <div class="wrapper">
+    <header>
+        <h4>Rango de precio</h4>
+        <p>Use el control deslizante o ingrese el precio mínimo en el precio máximo</p>
+    </header>
+    <div class="price-imput">
+        <div class="field">
+            <span>Min</span>
+            <input type="number" class="input-min" value="200">
+    </div>
+    <div class="separator">-</div>
+    <div class="field">
+        <span>Max</span>
+        <input type="number" class="input-man" value="2500">
+</div>
+</div>
+<div class="slider">
+    <div class="progress"></div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
