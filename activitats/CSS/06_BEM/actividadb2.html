@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #171617f4;
+            color: rgb(89, 228, 228);
+            padding: 10px;
+            text-align: left;
+        }
+
+        .comentarios-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(74, 214, 189, 0.1);
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display:display-inside;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+        }
+
+        input[type="submit"] {
+            background-color: #8e9d94;
+            color: rgb(55, 53, 53);
+            border:line-style;
+            padding: 10px;
+            cursor: move;
+        }
+
+        .comentario {
+            border-bottom: 1px solid #2a2828;
+            padding: 10px 0;
+        }
+
+        .comentario p {
+            margin: 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Comentarios</h1>
+    </header>
+
+    <div class="comentarios-container">
+        <form id="formulario-comentario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+            <input type="submit" value="Otro comentario">
+        </form>
+
+        
+
+       
+</body>
+</html>
