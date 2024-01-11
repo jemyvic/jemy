@@ -5,18 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .caja {
-   
-   
-    mix-blend-mode: soft-light;
-    
-}
+      <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 0;
+      margin: 0;
+    }
 
-    </style>
+    .contenedor {
+      background-color: #e4ea91; 
+      max-height: 10rem; 
+      overflow: hidden; 
+     
+    }
+
+    .contenedor:hover {
+      max-height: 5rem; /
+    }
+
+    .contenido {
+      padding: 1rem; 
+    }
+  </style>
 </head>
 <body>
-    <p class="caja">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-    <p> Ratione minima beatae architecto dolorem perferendis impedit </p>
-    <p> incidunt soluta natus reiciendis illum odit debitis vitae, iste minus</p>
+    <div class="contenedor">
+        <p class="contenido">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est blanditiis deserunt totam odit obcaecati nam, id hic officia repudiandae. Ipsam culpa ab nesciunt incidunt qui commodi quisquam eos aut. Unde.
+        </p>
+      </div>
 </body>
 </html>
