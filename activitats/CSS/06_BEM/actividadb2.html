@@ -4,82 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
-         body {
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #494848;
-            
-        }
+    body{
+    background-color: burlywood;
+    }
+    .comment {
+      background-color: #98949467;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+      padding: 10px;
+    }
+    .comment h3 {
+      margin-top: 0;
+    }
+    .comment p {
+      margin-bottom: 0;
+     
 
-        header {
-            background-color: #171617f4;
-            color: rgb(89, 228, 228);
-            padding: 10px;
-            text-align: left;
-        }
-
-        .comentarios-container {
-            max-width: 80%;
-            margin: 0;
-            padding: 0;
-            background-color: #918b8b;
-            box-shadow: 0 0 80px rgba;
-        }
-
-        form {
-            margin-bottom: 0;
-        }
-
-        label {
-            display:display-inside;
-            margin-bottom: 0;
-        }
-
-        input[type="text"],
-        textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 12px;
-        }
-
-        input[type="submit"] {
-            background-color: #8e9d94;
-            color:#0f0f0f;
-            border:line-style;
-            padding: 10px;
-            cursor: move;
-        }
-
-        .comentario {
-            border-bottom: 1px solid #2a2828;
-            padding: 50px 0;
-        }
-
-        .comentario p {
-            margin: 0;
-        }
-    </style>
-    
+    }
+ </style>
 </head>
 <body>
-    <header>
-        <h1>Comentarios</h1>
-    </header>
+    <h1>Comentarios:</h1>
+    <form>
+       <label for="name">Nombre:</label>
+       <input type="text" id="name" name="name">
+       <br>
+       <label for="comment">Comentario:</label>
+       <textarea id="comment" name="comment"></textarea>
+       <br>
 
-    <div class="comentarios-container">
-        <form id="formulario-comentario">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-
-            <label for="comentario">Comentario:</label>
-            <textarea id="comentario" name="comentario" rows="4" required></textarea>
-
-            <input type="submit" value="Otro comentario">
-        </form>
-
-        
+      
+       <label for="comment">Añadir comentario:</label>
+       <textarea id="comment" name="comment"></textarea>
+       <br>
+       
+    </form>
+   
+    
+   
 
        
 </body>
