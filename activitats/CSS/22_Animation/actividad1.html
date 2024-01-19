@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          margin: 0;
+          overflow: hidden;
+          background-color: #000;
+        }
+    
+        /* Estilo para el sol */
+        .sol {
+          width: 100px;
+          height: 100px;
+          background-color: #ffdb58; /* Amarillo brillante */
+          border-radius: 50%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+    
+        /* Estilo para la luna */
+        .luna {
+          width: 100px;
+          height: 100px;
+          background-color: #aaa; /* Gris para representar la luna */
+          border-radius: 50%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          animation: eclipse 5s infinite alternate; /* Animación para el eclipse */
+        }
+    
+        /* Animación para el eclipse */
+        @keyframes eclipse {
+          0%, 100% {
+            transform: translate(-50%, -50%);
+          }
+          50% {
+            transform: translate(-50%, -50%) scale(0); /* Escala para simular el eclipse */
+          }
+        }
+      </style>
+</head>
+<body>
+    <div class="sol"></div>
+  <div class="luna"></div>
+</body>
+</html>
