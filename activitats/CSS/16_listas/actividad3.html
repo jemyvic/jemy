@@ -5,35 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /* Estilo base para los elementos de la lista */
-    ul {
-      text-align: center;
-      list-style: none;
+       /* Estilo base para la tabla */
+    table {
+      border-collapse: collapse;
+      width: 200px; /* Ancho de la tabla */
+    }
+
+    /* Estilo base para las celdas */
+    td {
       padding: 10px;
-      margin: 0;
-      background-color: #97bfe9; /* Color de fondo, puedes ajustarlo según tus preferencias */
-      width: 150px; /* Ancho de la lista */
-    }
-
-    li {
-      margin-bottom: 10px;
-      cursor: pointer;
+      text-align: center;
       font-size: 16px;
-      color: #f4eeee;
-      transition: color 0.3s ease;
+      color: #ffffff;
+      background-color: #007bff;
+
     }
 
-    /* Cambio de estado cuando el cursor está encima */
-    li:hover {
-      color: #007bff; /* Puedes ajustar el color según tus preferencias */
-    </style>
+    /* Cambio de estado cuando el cursor está encima de la celda */
+    td:hover {
+      color: #97a7ee;
+      background-color: #007bff; /* Puedes ajustar el color según tus preferencias */
+    }
+  </style>
     
 </head>
 <body>
-    <ul>
-        <li>Productos</li>
-        <li>Carrito</li>
-        <li>Perfil</li>
-      </ul>
+    
 </body>
-</html>
+</html> <table>
+    <tr>
+      <td>Producto</td>
+    </tr>
+    <tr>
+      <td>Carrito</td>
+    </tr>
+    <tr>
+      <td>Perfil</td>
+    </tr>
+  </table>
