@@ -11,11 +11,11 @@
           background-color: #000;
         }
     
-        /* Estilo para el sol */
+      
         .sol {
           width: 100px;
           height: 100px;
-          background-color: #ffdb58; /* Amarillo brillante */
+          background-color: #ffdb58;
           border-radius: 50%;
           position: absolute;
           top: 50%;
@@ -23,26 +23,26 @@
           transform: translate(-50%, -50%);
         }
     
-        /* Estilo para la luna */
+    
         .luna {
           width: 100px;
           height: 100px;
-          background-color: #aaa; /* Gris para representar la luna */
+          background-color: #aaa; 
           border-radius: 50%;
           position: absolute;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
-          animation: eclipse 5s infinite alternate; /* Animación para el eclipse */
+          animation: eclipse 5s infinite alternate; 
         }
     
-        /* Animación para el eclipse */
+        
         @keyframes eclipse {
           0%, 100% {
             transform: translate(-50%, -50%);
           }
           50% {
-            transform: translate(-50%, -50%) scale(0); /* Escala para simular el eclipse */
+            transform: translate(-50%, -50%) scale(0);
           }
         }
       </style>
