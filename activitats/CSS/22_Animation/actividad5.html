@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      
+      .loading-container {
+        text-align: center;
+      }
+      
+      .loading {
+        border: 8px solid #dd0c60;
+        border-top: 8px solid #fff;
+        border-radius: 60%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+        margin: 20px auto;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      p {
+        font-family: Arial, sans-serif;
+        color: #2f3131;
+        background-color: rgb(243, 181, 225);
+        border: 2px solid #dd0c60;
+        width: 120px;
+        height: 20px;
+
+      }
+    </style>
+</head>
+<body>
+    <body>
+        <div class="loading-container">
+          <div class="loading"></div>
+          <p>Loading...</p>
+        </div>
+      </body>
+</body>
+</html>

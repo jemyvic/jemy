@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.pendulum-container {
+  width: 200px;
+  height: 400px;
+  position: relative;
+}
+
+.pendulum {
+  width: 20px;
+  height: 200px;
+  background-color: #3498db;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: swing 2s ease-in-out infinite;
+  transform-origin: 50% 0;
+}
+
+@keyframes swing {
+  0%, 100% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  50% {
+    transform: translateX(-50%) rotate(20deg);
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="pendulum-container">
+        <div class="pendulum"></div>
+      </div>
+</body>
+</html>
