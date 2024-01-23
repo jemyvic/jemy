@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .reloj {
+  position:relative;
+  width: 300px;
+  height: 300px;
+  border: 10px solid rgb(90, 88, 88);
+  border-radius: 50%;
+  background-color: rgb(230, 230, 136);
+}
+
+.hand {
+  position:absolute;
+  top: 15%;
+  left: 50%;
+  transform-origin: bottom center;
+  width: 10px;
+  height: 50%;
+  background-color: rgb(78, 78, 81);
+}
+
+.hour-hand {
+  height:40%;
+  transform: rotate(0deg);
+  animation: hour-hand 200s linear infinite;
+}
+
+.minute-hand {
+  height: 40%;
+  transform: rotate(0deg);
+  animation: minute-hand 60s linear infinite;
+}
+
+.second-hand {
+  height: 40%;
+  transform: rotate(0deg);
+  animation: second-hand 30s linear infinite;
+}
+
+@keyframes hour-hand {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes minute-hand {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes second-hand {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+    </style>
+</head>
+<body>
+    <div class="reloj">
+        <div class="hand hour-hand"></div>
+        <div class="hand minute-hand"></div>
+        <div class="hand second-hand"></div>
+      </div>
+</body>
+</html>
