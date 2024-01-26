@@ -138,14 +138,14 @@ section{
 }
 .icons .fa{
     width: 20vw;
-    padding: 1vw;
-    font-size: 2.5vw;
+    padding: 2.5vw;
+    font-size: 2vw;
     cursor: pointer;
-    background: #fb5607;
+    background:#ffafcc;
     transition: 0.5s ease;
 }
 .icons .fa:hover{
-    color: #ffbe0b;
+    color:black;
     transform: translateX(-8vw);
 }
 .icons .fa span{
@@ -159,7 +159,7 @@ section{
     top: 50%;
     left: 40%;
     height: 40vw;
-    width: 40vw;
+    width: 35vw;
     transform: translate(-50%,-50%);
     background: #cdb4db;
     animation: animate_blob 8s linear infinite;   
