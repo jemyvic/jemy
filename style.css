@@ -9,7 +9,7 @@ body{
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background: #faedcd;
+    background: white;
 }
 section{
     width: 100%;
@@ -22,12 +22,12 @@ section{
     align-items: center;
     justify-content: space-between;
     padding: 1.2vw 6vw;
-    background: #faedcd;
+    background: white;
     z-index: 1000;
 }
-.Porfolio{
+.Portfolio{
     font-size: 3vw;
-    color:#d4a373;
+    color:black;
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -42,7 +42,7 @@ section{
 }
 .menuitems li a{
     display: block;
-    color: #d4a373;
+    color: black;
     font-size: 1.5vw;
     letter-spacing: 4px;
     text-decoration: none;
@@ -73,13 +73,13 @@ section{
     text-transform: capitalize;
 }
 .text_container h2::first-line{
-    color:#ccd5ae;
+    color:#ffbe0b;
     letter-spacing: 5px;
-    text-shadow: 0 5px 10px #432818;
+    text-shadow: 0 5px 10px white;
 }
 .text_container h5{
-    color: #d4a373;
-    font-size: 3vm;
+    color: #fb5607;
+    font-size:  3vw;
     font-weight: 300;
     text-align: left;
     margin-top: 20px;
