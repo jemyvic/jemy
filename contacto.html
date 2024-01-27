@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7./css/font-awesome.css"/>
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;');
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#ffafcc ;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex: 1;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+.left:hover {
+    transform: scale(1.1); /* Puedes ajustar el valor según tu preferencia */
+}
+
+.left {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left img {
+  width: 100%;
+  height: auto;
+}
+
+.right {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.right h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.right input[type="text"],
+.right input[type="email"],
+.right textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.right button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color:#cdb4db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.right button[type="submit"]:hover {
+  background-color: #334d66;
+}
+
+.right .contact-info {
+  margin-top: 20px;
+}
+
+.right .contact-info p {
+  margin-bottom: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+          <img src="imagenes/original-18E50298-BFB4-4F85-9778-F2F7D06FF36E.jpeg" alt="Imagen de contacto">
+        </div>
+        <div class="right">
+          <h1>Contacto</h1>
+          <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+          <div class="contact-info">
+            <h2>Información de contacto</h2>
+            <p>Teléfono: 683176038</p>
+            <p>Email: jmunoz6@inscaparrella.cat</p>
+            <p>Dirección: Av. Sant ruf 10, 2, 1</p>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
