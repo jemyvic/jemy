@@ -7,100 +7,82 @@
     <title>Document</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;');
-*{
-   
-    font-family: 'poppins',sans-serif;
-}
-body{
-    
-    background: white;
-}
-.titulo{
-    background-color: ;
+        body {
+            margin: 0;
+            padding: 0;
+            font-family:'poppins',sans-serif; ;
+            background-color: #ffc8dd;
+        }
 
-}
-.tipo{
- 
+        header {
+            text-align: center;
+            background-color: #cdb4db;
+            color: black;
+            padding: 20px 0;
+        }
 
-}
-.foto1{
- float: left;
-  width: 1px;
-  height: 1px;
-  padding: 20px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  
-}
-.foto2{
- float: left;
-  width: 1px;
-  height: 1px;
-  padding: 20px;
-  box-sizing: border-box;
-}
-.foto3{
- float: left;
-  width: 1px;
-  height: 1px;
-  padding: 20px;
-  box-sizing: border-box;
-}
-.explicacion{
-    float: right;
+        #container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
 
-}
+        .box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
+        .box img {
+            width: 100%;
+            max-height: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .pdf-link {
+            color: #333;
+            text-decoration: none;
+            margin-bottom: 10px;
+            height: 450px;
+        }
     </style>
-</head>
-<body>
-    <div class="titulo">
-        <h1>PROYECTOS</h1>
-    </div>
-    <div>
-        <p>creación de marca</p>
-    </div>
-    <div>
-        <img src="imagenes/299427525_377267594573790_7504196189683311322_n.png" alt="marca">
-    </div>      
-        <div class="tipo">
-            <h1>DISEÑO 1</h1> </div>
-
-            <div class="foto1">
-            <img src="imagenes/4x015.....jpg" alt="diseño1">  
-            </div>
-            
-            <div class="explicacion">
-              <h1>capitulo 1</h1>
-              <embed src="docs/capitulo1.pdf" type="application/pdf"/>
-            </div>
+    </head>
+    <body>
     
-            <div class="tipo">
-            <h1>DISEÑO 2</h1> </div>
-
-            <div class="foto2">
-            <img src="imagenes/4x022.jpg" alt="diseño2">  
-            </div>
-             
-            <div class="explicacion">
-            <embed src="docs/capitulo3nuevo.pdf" type="application/pdf"/>
-            </div>
-
-            <div class="tipo">
-            <h1>DISEÑO 3</h1></div>
-
-            <div class="foto3">
-            <img src="imagenes/4x023.jpg" alt="diseño3">
-            </div>  
-            
-            <div class="explicacion">
-            <embed src="docs/capitulo5.pdf" type="application/pdf"/>
-            </div>
-            <div>
-            <img src="imagenes/13413739_1753610701562841_6030184065668571322_n.jpg" alt="coleccion final"> 
-            </div>
-            
-        
+        <header>
+            <h1>Proyecto Florence</h1>
+        </header>
     
-</body>
-</html>
+        <div id="container">
+            <div class="box">
+                <embed src="docs/capitulo1.pdf"class="pdf-link" type="application/pdf"/>
+            </div>
+            <div class="box">
+                <img src="imagenes/4x015.....jpg" alt="Imagen 1">
+            </div>
+            <div class="box">
+                <embed src="docs/capitulo3nuevo.pdf" class="pdf-link" type="application/pdf"/>
+            </div>
+            <div class="box">
+                <img src="imagenes/4x022.jpg" alt="Imagen 2">
+            </div>
+            <div class="box">
+                <embed src="docs/capitulo5.pdf" class="pdf-link" type="application/pdf"/>
+            </div>
+            <div class="box">
+                <img src="imagenes/4x023.jpg" alt="Imagen 3">
+            </div>
+      
+        </div>
+    
+    </body>
+    </html>
