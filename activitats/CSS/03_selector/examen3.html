@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura web</title>
+    <style>
+        body {
+          
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 10px;
+          margin-bottom: 10px;
+          border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .menu {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+
+        }
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .menu a:hover {
+            background-color: #555;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            background-color: #8d9356;
+        }
+        .parte-central {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #592626;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            margin-left: 50px;
+        }
+        .noticia {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+            width: 80%;
+        }
+        .noticia h2 {
+            margin-bottom: 10px;
+        }
+        .noticia img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .noticia p {
+            text-align: justify;
+            margin-top: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Título del sitio web</h1>
+    </header>
+    <nav class="menu">
+        <a href="#">Inici</a>
+        <a href="#">MENU</a>
+        <a href="#">H</a>
+        <a href="#">H</a>
+        <a href="#">H</a>
+    </nav>
+    <div class="container">
+        <div class="parte-central">
+            <div class="noticia">
+                <h2>Noticia 1</h2>
+                <img src="https://via.placeholder.com/600" alt="Imagen de noticia 1">
+              
+            </div>
+            <div class="noticia">
+                <h2>Noticia 2</h2>
+                <img src="https://via.placeholder.com/600" alt="Imagen de noticia 2">
+                <p>El texto del párrafo 2</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Centre Intranet Moodle Secretaria DAM M4: Llenguatges de marques i sistemes de gestió de la inform

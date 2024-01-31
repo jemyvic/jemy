@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+
+          }
+
+        .header{
+            background-color: coral;
+            float: left;
+            height:120px ;
+            width: 80%;
+            margin-bottom: 10px;
+            position: relative; /*lo que hizo que se pusiera en medio*/
+            top: 0;
+            left: 10%;
+            right: 10%;
+            text-align: center;
+            font-size: 10px;
+            
+             
+
+        }
+
+        .menu{
+         
+            background-color: rgb(17, 166, 203);
+            float: left;
+            height:40px ;
+            width: 100%;
+           margin-bottom: 10px;
+           justify-content: left;
+        
+            
+        }
+
+        .menu a {
+            position: relative;
+            text-align: center;
+            color: #fff;
+            text-decoration: none;
+            margin: 0px 10px;
+            padding: 2px;
+            border-radius: 5px;    
+            
+        }
+
+
+        .content{
+            position: relative;
+            display: flex;
+            background-color: green;
+            float: left; 
+            height:400px ;
+            width: 34%;
+            border-radius: 10px;
+               
+        }
+
+        .content h1{
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+           width: 100%; /* Opcional: para que el texto ocupe todo el ancho del contenedor */
+            margin: 0;
+            background-color: aqua;
+            border-radius: 6px;
+            font-size: 1.5rem;     
+        }
+
+        .content h2{
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            margin: 0;
+            border-radius: 6px;
+            font-size: 1.5rem;     
+        }
+
+        .content p{
+            position: absolute;
+            top: 230px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            margin: 0;
+            border-radius: 6px;
+            font-size: 1.5rem;     
+        }
+
+        .content::before {
+           content: "";
+           position: absolute;
+           top: 50%;
+           left: 0;
+           width: 100%;
+           height: 10px; /* Grosor de la línea */
+          background-color: #333; /* Color de la línea */
+          transform: translateY(-50%);
+        }
+
+
+        .sidebar{
+          
+            background-color: rgb(209, 226, 79);
+            float: left;
+            height:380px ;
+            width: 30%; /* Puedes ajustar el ancho según tu diseño */
+            margin-right: 20px; /* Espacio entre columnas */
+            box-sizing: border-box; /* Incluye el margen en el ancho total del elemento */
+            border-radius: 10px;   
+        }
+
+        .sidebar p{
+            text-align: left;
+        }
+
+
+        .sidebar::before {
+            content: "";
+            position: absolute;
+            top: 25%;
+           left: 0;
+            width: 30%;
+           height: 40px; /* Grosor de la línea */
+          background-color: #333; /* Color de la línea */
+          transform: translateY(-50%);
+        }
+
+
+
+
+
+        .sidebar2{
+            background-color: rgb(21, 198, 92);
+            float: right;
+            height:380px ;
+            width: 30%; /* Puedes ajustar el ancho según tu diseño */
+            margin-right: 20px; /* Espacio entre columnas */
+            box-sizing: border-box; /* Incluye el margen en el ancho total del elemento */
+            border-radius: 10px;          
+
+        }
+
+        
+           
+        .footer{
+            background-color: rgb(100, 27, 123);
+            float: left;
+            height:50px ;
+            width: 100%;
+            text-align: center;
+              
+        }
+
+
+
+     .box{
+    width: 100px; 
+    height: 100px;
+    background-color: blue;
+    margin: 5%;
+    float: left;
+
+       }
+    </style>
+   
+</head>
+<body>
+    <header class="header">
+        <h1>Título del sitio web</h1>
+        <h1>Título del sitio web</h1>
+        <h1>Título del sitio web</h1>
+    </header>
+
+    <div>
+    <nav class="menu">
+        <a href="#">Inici</a>
+        <a href="#">MENU</a>
+        <a href="#">H</a>
+        <a href="#">H</a>
+        <a href="#">H</a>
+    </nav>
+    </div>
+
+    <div class= "sidebar">
+    <p>menu</p>
+    </div>
+
+    <div class= "sidebar2"></div>
+
+    <div class= "content">
+    <h1>part central</h1>
+    <h2>noticia 1</h2>
+    <p>noticia 2</p>
+             </div>
+   
+    <div class= "footer">
+    <p>djajdhjahuahfuahduhuashadf</p>
+</div>
+
+    
+</body>
+</html>
