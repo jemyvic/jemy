@@ -5,84 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-          margin: 0;
-          padding: 0;
-          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          height: 100vh;
-          display: flex;
-          flex-direction: row;
-          background-color: aqua;
+       body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: aquamarine;
         }
-    
-        main {
-          flex-grow: 1;
-          overflow: hidden;
-          position:relative;
 
+        main {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
         }
-    
-        img {
-          margin-top: 30px;
-          margin-bottom:0;
-          width: 50%;
-          height: 70%;
-          object-fit: cover;
-          
-        }
-    
+
         section {
-          background-color: rgba(228, 53, 135, 0.301);
-          padding: 30px;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          height: 10%;
-        
-        
-          
+            width: 100%;
+            padding: 20px;
+            background: #eb72ad;
         }
-    
+
         nav {
-          display: flex;
-          justify-content: center;
+            margin-top: 20px;
         }
-    
+
         ul {
-          list-style: none;
-          padding: 0;
-          margin: 0;
-          display: flex;
+            list-style: none;
+            padding: 0;
         }
-    
+
         li {
-          margin: 0 10px;
+            display: inline-block;
+            margin-right: 10px;
         }
-    
+
         a {
-          text-decoration: none;
-          color: #070707;
-          font-weight: bold;
-          font-size: 1.5rem;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
         }
+
+        img {
+          width: 100vh;
+          height: 100vh;
+	        object-position: center;
+  
+        }
+       
       </style>
 
 </head>
 <body>
-    <main>
-      <img class="foto" src="m/thumbnail_DB54823B-0855-4E02-B8BA-3488E8763DEE_Original.jpg" alt="jemy">   
-        <section>
-          <nav>
+  <main>
+    <img src="m/thumbnail_DB54823B-0855-4E02-B8BA-3488E8763DEE_Original.jpg" alt="Imagen de fondo">
+    <section>
+        <h1>Jemy victoria Muñoz Flores</h1>
+        <p>Desarrollador Web</p>
+        <nav>
             <ul>
-              <li><a href="#curriculum">Curriculum</a></li>
-              <li><a href="#redes">Redes Sociales</a></li>
-              <li><a href="victoria.eme20@outlook.com">Email</a></li>
-              <li><a href="#otras-paginas">Otras Páginas</a></li>
+                <li><a href="curriculum.pdf" target="_blank">Curriculum Vitae</a></li>
+                <li><a href="https://www.linkedin.com/in/tu-linkedin" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.twitter.com/tu-twitter" target="_blank">Twitter</a></li>
+                <li><a href="jmunoz6@inscaparrela.cat">Correo Electrónico</a></li>
+                <li><a href="otra_pagina.html" target="_blank">Otra Página</a></li>
             </ul>
-          </nav>
-        </section>
-      </main>
+        </nav>
+    </section>
+</main>
+    
     
 </body>
 </html>
