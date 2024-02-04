@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetación con Clase Open</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .row {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            position: relative;
+        }
+
+        .open {
+            display: block;
+        }
+
+        .open p.closed {
+            display: none;
+        }
+
+        button {
+            background-color: #dee9de;
+            color: black;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row open" id="div1">
+            <h2>¿Que medtodos de pago se ofrecen?</h2>
+            <p class="closed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint exercitationem rerum molestiae officiis fugiat vitae quasi dolorum voluptatum, veritatis suscipit perferendis repellendus error accusantium asperiores earum distinctio adipisci culpa beatae.</p>
+            <button onclick="toggleVisibility('div1')">+</button>
+        </div>
+
+        <div class="row open" id="div2">
+            <h2>¿Como puedo cambiarme a un plan diferente?</h2>
+            <p class="closed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat unde cupiditate voluptatibus quisquam corporis. Blanditiis quaerat officiis quibusdam fugiat facere, dolorem cupiditate odit dolore rem sunt accusamus tenetur ipsa possimus?</p>
+            <button onclick="toggleVisibility('div2')">+</button>
+        </div>
+
+        <div class="row open" id="div3">
+            <h2>¿Puedo optar por comprar créditos?</h2>
+            <p class="closed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam rerum ratione deserunt minus nulla officiis eaque, in eligendi exercitationem deleniti harum, repellat pariatur amet vitae neque eum perferendis ipsum eos.</p>
+            <button onclick="toggleVisibility('div3')">+</button>
+        </div>
+
+        <div class="row open" id="div4">
+            <h2>¿Hay precios especiales para quienes envian grandes volumenes de correos electronicos?</h2>
+            <p class="closed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, rem doloremque magnam recusandae praesentium id error nam blanditiis laudantium iste officia sed, itaque deleniti dolorem perspiciatis, quam illum vel odio.</p>
+            <button onclick="toggleVisibility('div4')">+</button>
+        </div>
+
+        <div class="row open" id="div5">
+            <h2>¿Que sucede si llego al limite de envios o contactos?</h2>
+            <p class="closed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus perspiciatis nesciunt architecto veniam ut consequatur ex officiis rem repudiandae et? Quos optio voluptas dignissimos numquam asperiores a. Quam, iure maxime.</p>
+            <button onclick="toggleVisibility('div5')">+</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleVisibility(divId) {
+            var div = document.getElementById(divId);
+            div.classList.toggle('open');
+        }
+    </script>
+
+</body>
+</html>
