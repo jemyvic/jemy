@@ -8,20 +8,87 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;');
         *{
-        margin: 10px;
-        padding: 1px;
-        box-sizing: border-box;
        font-family: 'poppins',sans-serif;
-       background-color: #ffafcc;
+     
         }
+
+        body{
+            background-color: #ffafcc;
+           
+        }
+       
+
+        .navbar {
+         
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: .7vw 6vw;
+    background:#cdb4db;
+    z-index: 1000;
+      }
+          
+
+        .navbar .Porfolio {
+            font-size: 2vw;
+    color:black;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+            
+        }
+
+        .navbar .menuitems {
+            display: flex;
+    margin: auto 0; 
+        }
+
+        .navbar .menuitems li {
+            list-style: none;
+    margin:0 1.5vw ;
+        }
+
+        .navbar .menuitems li a {
+            justify-content: center;
+            display: block;
+    color: black;
+    font-size: 1.5vw;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+        }
+        .menuitems li:hover a{
+    color: black ;
+        }
+
+        .titulo{
+            margin-top: 20px;
+        }
+        
+
        
     </style> 
     
 </head>
-<body>    
-    
-    <h1>HTML</h1>
-    <h2>Formato</h2>
+<body> 
+    <div class="navbar">
+        <div class="Porfolio">PORTFOLIO</div>
+        <ol class="menuitems">
+            <li><a href="http://127.0.0.1:5500/index.html">Inicio</a></li>
+            <li><a href="curriculum.html">Sobre mi </a></li>
+            <li><a href="activitats/activitats.html">Actividades</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ol>
+    </div>
+
+    <div class="titulo">
+    <h1></h1><br>
+    <h1></h1><br>
+    <h2>HTML</h2>
+     </div>
     <div class="container">
         <div class="colum1">
 
