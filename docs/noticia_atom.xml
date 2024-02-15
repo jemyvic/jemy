@@ -13,14 +13,12 @@
     </item>
     <item>
       <title>Descubierta nueva vulnerabilidad en sistemas operativos Windows</title>
-      <link>https://www.ejemplo.com/noticia2</link>
-      <description>Expertos en seguridad informática han identificado una vulnerabilidad crítica en los sistemas operativos Windows que podría permitir a los hackers ejecutar código malicioso de forma remota.</description>
+          <description>Expertos en seguridad informática han identificado una vulnerabilidad crítica en los sistemas operativos Windows que podría permitir a los hackers ejecutar código malicioso de forma remota.</description>
       <pubDate>Sat, 13 Feb 2024 12:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Lanzamiento de nueva versión de software de edición de vídeo</title>
-      <link>https://www.ejemplo.com/noticia3</link>
-      <description>La empresa ABC anuncia el lanzamiento de la última versión de su software de edición de vídeo, que incluye nuevas funciones de inteligencia artificial para mejorar la calidad y la eficiencia del proceso de edición.</description>
+           <description>La empresa ABC anuncia el lanzamiento de la última versión de su software de edición de vídeo, que incluye nuevas funciones de inteligencia artificial para mejorar la calidad y la eficiencia del proceso de edición.</description>
       <pubDate>Fri, 12 Feb 2024 12:00:00 GMT</pubDate>
     </item>
     </feed>
