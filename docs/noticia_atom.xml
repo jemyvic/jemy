@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Noticias de Tecnología</title>
+    <link>https:// jemy.000.pe</link>
+    <description>Últimas noticias sobre tecnología e informática</description>
+    <language>es-ES</language>
+    <lastBuildDate>Mon, 15 Feb 2024 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Nuevo lanzamiento de smartphone con tecnología 5G</title>
+      <link>https://www.ejemplo.com/noticia1</link>
+      <description>La empresa XYZ presenta su último smartphone con conectividad 5G, ofreciendo velocidades de descarga sin precedentes y una experiencia de usuario mejorada.</description>
+      <pubDate>Sun, 14 Feb 2024 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Descubierta nueva vulnerabilidad en sistemas operativos Windows</title>
+      <link>https://www.ejemplo.com/noticia2</link>
+      <description>Expertos en seguridad informática han identificado una vulnerabilidad crítica en los sistemas operativos Windows que podría permitir a los hackers ejecutar código malicioso de forma remota.</description>
+      <pubDate>Sat, 13 Feb 2024 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lanzamiento de nueva versión de software de edición de vídeo</title>
+      <link>https://www.ejemplo.com/noticia3</link>
+      <description>La empresa ABC anuncia el lanzamiento de la última versión de su software de edición de vídeo, que incluye nuevas funciones de inteligencia artificial para mejorar la calidad y la eficiencia del proceso de edición.</description>
+      <pubDate>Fri, 12 Feb 2024 12:00:00 GMT</pubDate>
+    </item>
+    </feed>
