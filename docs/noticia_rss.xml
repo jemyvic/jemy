@@ -2,6 +2,7 @@
 <rss version="2.0">
   <channel>
     <title>Noticias de Tecnología</title>
+    <a href="imagenes/JEMY.jpg">jemy</a>
     <description>Últimas noticias sobre tecnología e informática</description>
     <language>es-ES</language>
     <lastBuildDate>Mon, 15 Feb 2024 00:00:00 GMT</lastBuildDate>
