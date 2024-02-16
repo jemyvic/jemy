@@ -18,7 +18,7 @@
             <title>Lanzan nueva versión del software de edición de imágenes</title>
             <description>La compañía líder en software de edición de imágenes ha lanzado una nueva versión de su popular programa, con herramientas avanzadas y mejoras en la interfaz de usuario.</description>
             <pubDate>Lun, 14 Feb 2024 15:00:00 GMT</pubDate>
-            <enclosure url="imagenes/JEMY.jpg" length="1234" type="image/jpeg"/>
+            <itunes:image href="https://cuonda.com/storage/podcasts/58/image.jpg?gen=df658caa28e03d0a82c7d0b22b7b6471"/>
         </item>
     </channel>
 </rss>
