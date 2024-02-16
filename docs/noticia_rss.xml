@@ -1,25 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-  <channel>
-    <title>Noticias de Tecnología</title>
-    <a href="imagenes/JEMY.jpg">jemy</a>
-    <description>Últimas noticias sobre tecnología e informática</description>
-    <language>es-ES</language>
-    <lastBuildDate>Mon, 15 Feb 2024 00:00:00 GMT</lastBuildDate>
-    <item>
-      <title>Nuevo lanzamiento de smartphone con tecnología 5G</title>
-      <description>La empresa XYZ presenta su último smartphone con conectividad 5G, ofreciendo velocidades de descarga sin precedentes y una experiencia de usuario mejorada.</description>
-      <pubDate>Sun, 14 Feb 2024 12:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Descubierta nueva vulnerabilidad en sistemas operativos Windows</title>
-      <description>Expertos en seguridad informática han identificado una vulnerabilidad crítica en los sistemas operativos Windows que podría permitir a los hackers ejecutar código malicioso de forma remota.</description>
-      <pubDate>Sat, 13 Feb 2024 12:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lanzamiento de nueva versión de software de edición de vídeo</title>
-      <description>La empresa ABC anuncia el lanzamiento de la última versión de su software de edición de vídeo, que incluye nuevas funciones de inteligencia artificial para mejorar la calidad y la eficiencia del proceso de edición.</description>
-      <pubDate>Fri, 12 Feb 2024 12:00:00 GMT</pubDate>
-    </item>
-  </channel>
+    <channel>
+        <title>Noticias de Informática</title>
+        <description>Últimas noticias sobre informática</description>
+        <language>es</language>
+        <item>
+            <title>Desarrollan nuevo algoritmo de compresión de datos</title>
+            <description>Un equipo de investigadores ha creado un revolucionario algoritmo de compresión de datos que promete reducir significativamente el tamaño de los archivos sin perder calidad.</description>
+            <pubDate>Mié, 16 Feb 2024 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Descubren nueva técnica de ciberseguridad</title>
+            <description>Expertos en seguridad informática han anunciado el descubrimiento de una nueva técnica para proteger sistemas contra ataques cibernéticos, fortaleciendo así la seguridad en línea.</description>
+            <pubDate>Mar, 15 Feb 2024 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Lanzan nueva versión del software de edición de imágenes</title>
+            <description>La compañía líder en software de edición de imágenes ha lanzado una nueva versión de su popular programa, con herramientas avanzadas y mejoras en la interfaz de usuario.</description>
+            <pubDate>Lun, 14 Feb 2024 15:00:00 GMT</pubDate>
+            <enclosure url="imagenes/JEMY.jpg" length="1234" type="image/jpeg"/>
+        </item>
+    </channel>
 </rss>

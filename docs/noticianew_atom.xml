@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Noticias de Informática</title>
+    <updated>2024-02-16T08:00:00Z</updated>
+    <id>http://www.ejemplo.com/informatica</id>
+    <author>
+        <name>Equipo de Noticias de Informática</name>
+    </author>
+    <entry>
+        <title>Desarrollan nuevo algoritmo de compresión de datos</title>
+        <id>http://www.ejemplo.com/informatica/algoritmo-compresion</id>
+        <updated>2024-02-16T08:00:00Z</updated>
+        <summary>Un equipo de investigadores ha creado un revolucionario algoritmo de compresión de datos que promete reducir significativamente el tamaño de los archivos sin perder calidad.</summary>
+    </entry>
+    <entry>
+        <title>Descubren nueva técnica de ciberseguridad</title>
+        <id>http://www.ejemplo.com/informatica/tecnica-ciberseguridad</id>
+        <updated>2024-02-15T12:00:00Z</updated>
+        <summary>Expertos en seguridad informática han anunciado el descubrimiento de una nueva técnica para proteger sistemas contra ataques cibernéticos, fortaleciendo así la seguridad en línea.</summary>
+    </entry>
+    <entry>
+        <title>Lanzan nueva versión del software de edición de imágenes</title>
+        <id>http://www.ejemplo.com/informatica/software-edicion-imagenes</id>
+        <updated>2024-02-14T15:00:00Z</updated>
+        <summary>La compañía líder en software de edición de imágenes ha lanzado una nueva versión de su popular programa, con herramientas avanzadas y mejoras en la interfaz de usuario.</summary>
+        <content type="image/jpeg" src="imagenes/Jemy.jpg"/>
+    </entry>
+</feed>
