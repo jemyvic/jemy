@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Noticias de Informática</title>
+        <description>Últimas noticias sobre informática</description>
+        <language>es</language>
+        <item>
+            <title>Desarrollan nuevo algoritmo de compresión de datos</title>
+            <description>Un equipo de investigadores ha creado un revolucionario algoritmo de compresión de datos que promete reducir significativamente el tamaño de los archivos sin perder calidad.</description>
+            <pubDate>Mié, 16 Feb 2024 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Descubren nueva técnica de ciberseguridad</title>
+            <description>Expertos en seguridad informática han anunciado el descubrimiento de una nueva técnica para proteger sistemas contra ataques cibernéticos, fortaleciendo así la seguridad en línea.</description>
+            <pubDate>Mar, 15 Feb 2024 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Lanzan nueva versión del software de edición de imágenes</title>
+            <description>La compañía líder en software de edición de imágenes ha lanzado una nueva versión de su popular programa, con herramientas avanzadas y mejoras en la interfaz de usuario.</description>
+            <pubDate>Lun, 14 Feb 2024 15:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
